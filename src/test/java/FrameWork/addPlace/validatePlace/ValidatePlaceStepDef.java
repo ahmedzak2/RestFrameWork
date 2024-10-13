@@ -4,10 +4,13 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
 import pojoAddPlaceAPI.AddPlace;
 import pojoAddPlaceAPI.Location;
+
+import java.io.FileNotFoundException;
 import java.util.Arrays;
 
 import static io.restassured.RestAssured.given;
@@ -15,7 +18,7 @@ import static org.junit.Assert.assertEquals;
 
 public class ValidatePlaceStepDef extends BaseTest{
     @Given("add place payload")
-    public void addPlacePayLoad() {
+    public void addPlacePayLoad() throws FileNotFoundException {
         AddPlace place = new AddPlace();
         place.setAccuracy(50);
         place.setLanguage("English-EN");
@@ -30,17 +33,16 @@ public class ValidatePlaceStepDef extends BaseTest{
         place.setTypes(Arrays.asList("male", "female", "alien"));
 
         // Additional request setup as needed, e.g., setting body
-        req = new RequestSpecBuilder()
-                .setBaseUri("https://rahulshettyacademy.com")
-                .setContentType(ContentType.JSON)
-                .build();
-        res = given().spec(req).body(place).log().all();
+        req = requestSpecification();
+        res = given().spec(req).body(place);
         //  response = requestAddPlace.when().post("/maps/api/place/add/json").then().spec(responseSpecification).extract().response();
 
     }
     @When("user calls {string} with http request")
     public void userCallsWithHttpRequest(String resource) {
-        response = res.when().post(resource).then().log().all().extract().response();
+        resp = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
+
+        response = res.when().post(resource).then().spec(resp).log().all().extract().response();
     }
 
     public   int getResponseStatusCode(){
@@ -56,6 +58,7 @@ public class ValidatePlaceStepDef extends BaseTest{
         String actualValue = response.jsonPath().getString(key);
         assertEquals("Value for " + key + " is not as expected", expectedValue, actualValue);
     }
+
 
 
 }
