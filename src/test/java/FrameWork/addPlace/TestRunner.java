@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions
         (
                 features = "src/test/java/FrameWork/addPlace",
-                glue = "FrameWork.addPlace.validatePlace"
+                glue = "FrameWork.addPlace"
 )
 public class TestRunner {
 }

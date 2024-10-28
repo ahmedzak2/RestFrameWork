@@ -1,5 +1,6 @@
 package FrameWork.addPlace.validatePlace;
 
+import FrameWork.Utlis.AddPlaceDataBuild;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -7,47 +8,30 @@ import io.cucumber.java.en.When;
 import io.restassured.builder.ResponseBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
-import pojoAddPlaceAPI.AddPlace;
-import pojoAddPlaceAPI.Location;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Arrays;
 
 import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.requestSpecification;
 import static org.junit.Assert.assertEquals;
 
-public class ValidatePlaceStepDef extends BaseTest{
-    @Given("add place payload")
-    public void addPlacePayLoad() throws FileNotFoundException {
-        AddPlace place = new AddPlace();
-        place.setAccuracy(50);
-        place.setLanguage("English-EN");
-        place.setPhone_number("21121650000");
-        place.setWebsite("https://rahulshettyacademy.com");
-        place.setAddress("22 smart village");
-        place.setName("ahmed zakaria");
-        Location location = new Location();
-        location.setLat(22);
-        location.setLng(50);
-        place.setLocation(location);
-        place.setTypes(Arrays.asList("male", "female", "alien"));
+public class ValidatePlaceStepDef extends BaseTest {
 
-        // Additional request setup as needed, e.g., setting body
-        req = requestSpecification();
-        res = given().spec(req).body(place);
-        //  response = requestAddPlace.when().post("/maps/api/place/add/json").then().spec(responseSpecification).extract().response();
-
-    }
     @When("user calls {string} with http request")
     public void userCallsWithHttpRequest(String resource) {
+        System.out.println("whyMeMe");
+
         resp = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
 
         response = res.when().post(resource).then().spec(resp).log().all().extract().response();
     }
 
-    public   int getResponseStatusCode(){
-        return getResponseStatusCode=response.getStatusCode();
+    public int getResponseStatusCode() {
+        return getResponseStatusCode = response.getStatusCode();
     }
+
     @Then("The API request is success with status code {int}")
     public void theAPIRequestIsSuccessWithStatusCode(int statusCode) {
         assertEquals("The actual status code is not as expected", statusCode, getResponseStatusCode());
@@ -61,4 +45,11 @@ public class ValidatePlaceStepDef extends BaseTest{
 
 
 
+    @Given("add place PayLoad with {string} and {string} and {string} and {string}")
+    public void addPlacePayLoadWithAndAndAnd(String arg0, String arg1, String arg2, String arg3) throws IOException {
+        req = requestSpecification();
+        res = given().spec(req).body(AddPlaceDataBuild.addPlace(arg0,arg1, arg2 , arg3 ));
+        //  response = requestAddPlace.when().post("/maps/api/place/add/json").then().spec(responseSpecification).extract().response();
+
+    }
 }

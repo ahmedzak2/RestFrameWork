@@ -1,4 +1,4 @@
-package pojoAddPlaceAPI;
+package Pages.java.pojoAddPlaceAPI;
 
 public class Location {
 private double lat;

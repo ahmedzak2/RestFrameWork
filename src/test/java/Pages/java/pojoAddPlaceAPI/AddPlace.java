@@ -1,4 +1,4 @@
-package pojoAddPlaceAPI;
+package Pages.java.pojoAddPlaceAPI;
 
 import java.util.List;
 

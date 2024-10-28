@@ -1,0 +1,480 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "name",
+    "phone_number": "phoneNumber",
+    "address": "address",
+    "website": "https://rahulshettyacademy.com",
+    "language": "language",
+    "location": {
+        "lat": 22.0,
+        "lng": 50.0
+    },
+    "types": [
+        "male",
+        "female",
+        "alien"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Oct 2024 16:37:41 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "3d8404a0144a51725c1ea97f5b909a17",
+    "scope": "APP",
+    "reference": "bb44f3090c99271683330747ad1cda5ebb44f3090c99271683330747ad1cda5e",
+    "id": "bb44f3090c99271683330747ad1cda5e"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "name",
+    "phone_number": "phoneNumber",
+    "address": "address",
+    "website": "https://rahulshettyacademy.com",
+    "language": "language",
+    "location": {
+        "lat": 22.0,
+        "lng": 50.0
+    },
+    "types": [
+        "male",
+        "female",
+        "alien"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Oct 2024 16:37:43 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "0aa02977dbb70a2dfc1fb92158b86787",
+    "scope": "APP",
+    "reference": "e544cc9c428e4e46b4ab40e40ef0bcd7e544cc9c428e4e46b4ab40e40ef0bcd7",
+    "id": "e544cc9c428e4e46b4ab40e40ef0bcd7"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "name",
+    "phone_number": "phoneNumber",
+    "address": "address",
+    "website": "https://rahulshettyacademy.com",
+    "language": "language",
+    "location": {
+        "lat": 22.0,
+        "lng": 50.0
+    },
+    "types": [
+        "male",
+        "female",
+        "alien"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Oct 2024 16:38:43 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "6ba0710d0e454cdefc68fbfa35cf3d53",
+    "scope": "APP",
+    "reference": "716e9079b02762fae73a1a80bed702af716e9079b02762fae73a1a80bed702af",
+    "id": "716e9079b02762fae73a1a80bed702af"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "name",
+    "phone_number": "phoneNumber",
+    "address": "address",
+    "website": "https://rahulshettyacademy.com",
+    "language": "language",
+    "location": {
+        "lat": 22.0,
+        "lng": 50.0
+    },
+    "types": [
+        "male",
+        "female",
+        "alien"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Oct 2024 16:38:45 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "c3bbe567b81d4e7a13ee644d4ccb9030",
+    "scope": "APP",
+    "reference": "3664e4c74a2d0d1cee70dd81b43589e73664e4c74a2d0d1cee70dd81b43589e7",
+    "id": "3664e4c74a2d0d1cee70dd81b43589e7"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "name",
+    "phone_number": "phoneNumber",
+    "address": "address",
+    "website": "https://rahulshettyacademy.com",
+    "language": "language",
+    "location": {
+        "lat": 22.0,
+        "lng": 50.0
+    },
+    "types": [
+        "male",
+        "female",
+        "alien"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Oct 2024 16:38:54 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "277ef4c5eed72d20e0c814d7e3a6defc",
+    "scope": "APP",
+    "reference": "da8e2de4fe3b8c1944c6d120ff8b8c6dda8e2de4fe3b8c1944c6d120ff8b8c6d",
+    "id": "da8e2de4fe3b8c1944c6d120ff8b8c6d"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "name",
+    "phone_number": "phoneNumber",
+    "address": "address",
+    "website": "https://rahulshettyacademy.com",
+    "language": "language",
+    "location": {
+        "lat": 22.0,
+        "lng": 50.0
+    },
+    "types": [
+        "male",
+        "female",
+        "alien"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Oct 2024 16:38:56 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "c430d399ec9a93e1ae0c96a4b5d65c3a",
+    "scope": "APP",
+    "reference": "0c2dc17d55791b13445f942281bb27290c2dc17d55791b13445f942281bb2729",
+    "id": "0c2dc17d55791b13445f942281bb2729"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "name",
+    "phone_number": "phoneNumber",
+    "address": "address",
+    "website": "https://rahulshettyacademy.com",
+    "language": "language",
+    "location": {
+        "lat": 22.0,
+        "lng": 50.0
+    },
+    "types": [
+        "male",
+        "female",
+        "alien"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Oct 2024 16:40:04 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "a9d80c797255eceda618c070b396c4a6",
+    "scope": "APP",
+    "reference": "a9628bc7d19ff85d6a4afc14210a1033a9628bc7d19ff85d6a4afc14210a1033",
+    "id": "a9628bc7d19ff85d6a4afc14210a1033"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "name",
+    "phone_number": "phoneNumber",
+    "address": "address",
+    "website": "https://rahulshettyacademy.com",
+    "language": "language",
+    "location": {
+        "lat": 22.0,
+        "lng": 50.0
+    },
+    "types": [
+        "male",
+        "female",
+        "alien"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Oct 2024 16:40:07 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "967ba79066e145cd57e63b9fb0a38410",
+    "scope": "APP",
+    "reference": "994e6528a65f815191f98614f39b9eb3994e6528a65f815191f98614f39b9eb3",
+    "id": "994e6528a65f815191f98614f39b9eb3"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "name",
+    "phone_number": "phoneNumber",
+    "address": "address",
+    "website": "https://rahulshettyacademy.com",
+    "language": "language",
+    "location": {
+        "lat": 22.0,
+        "lng": 50.0
+    },
+    "types": [
+        "male",
+        "female",
+        "alien"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Oct 2024 16:40:33 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "1db69fa7d2300d54cbfdb0debf853fae",
+    "scope": "APP",
+    "reference": "b5455a9eab5c46f0a7826edb54884b39b5455a9eab5c46f0a7826edb54884b39",
+    "id": "b5455a9eab5c46f0a7826edb54884b39"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "name",
+    "phone_number": "phoneNumber",
+    "address": "address",
+    "website": "https://rahulshettyacademy.com",
+    "language": "language",
+    "location": {
+        "lat": 22.0,
+        "lng": 50.0
+    },
+    "types": [
+        "male",
+        "female",
+        "alien"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Oct 2024 16:40:35 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "519a8226e10c53c44a33c95d0efbed40",
+    "scope": "APP",
+    "reference": "0fed2c748dc5b439ae1a738193f1608c0fed2c748dc5b439ae1a738193f1608c",
+    "id": "0fed2c748dc5b439ae1a738193f1608c"
+}
