@@ -52,4 +52,11 @@ public class ValidatePlaceStepDef extends BaseTest {
         //  response = requestAddPlace.when().post("/maps/api/place/add/json").then().spec(responseSpecification).extract().response();
 
     }
+    @Given("add place payload with {string}, {string}, {string}, and {string}")
+    public void addPlacePayloadWithAndAndAnd(String language, String address, String name, String phoneNumber) throws IOException {
+        req = requestSpecification();
+        res = given().spec(req).body(AddPlaceDataBuild.addPlace(language,address, name , phoneNumber ));
+        // Implementation
+    }
+
 }

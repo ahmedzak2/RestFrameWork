@@ -7,6 +7,7 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import org.junit.Test;
 
 import java.io.*;
 import java.util.Properties;
@@ -22,11 +23,10 @@ public class BaseTest {
     public static RequestSpecification requestAddPlace;
     ResponseSpecification resp;
     PrintStream printStream;
-
     public RequestSpecification requestSpecification() throws IOException {
       if ( req == null)
       { try {
-            printStream = new PrintStream(new FileOutputStream("src/Pages/resources/Logging.txt", true)); // Corrected path
+            printStream = new PrintStream(new FileOutputStream("src/test/java/Pages/resources/Logging.txt", true)); // Corrected path
         } catch (FileNotFoundException e) {
             e.printStackTrace();
             return null;
@@ -45,7 +45,7 @@ public class BaseTest {
     }
     public static String getGlobalValue(String key) throws IOException {
         Properties properties = new Properties();
-        FileInputStream fileInputStream = new FileInputStream("src/Pages/resources/global.properties");
+        FileInputStream fileInputStream = new FileInputStream("src/test/java/Pages/resources/global.properties");
         properties.load(fileInputStream);
         return  properties.getProperty(key);
 

@@ -1,7 +1,7 @@
 Feature: Validate Place API
 
   Scenario Outline: Verify if a customer can add a place using Add Place API
-    Given add place PayLoad with "<Language>" and "<Address >" and "<Name>" and "<PhoneNumber>"
+    Given add place payload with "<language>", "<address>", "<name>", and "<phoneNumber>"
     When user calls "/maps/api/place/add/json" with http request
     Then The API request is success with status code 200
     And "status" in response body is "OK"
