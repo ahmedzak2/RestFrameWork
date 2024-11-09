@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
         (
                 features = "src/test/java/FrameWork/addPlace",
                 glue = "FrameWork.addPlace"
+               // tags= "@DeletePlace"
 )
 public class TestRunner {
 }
