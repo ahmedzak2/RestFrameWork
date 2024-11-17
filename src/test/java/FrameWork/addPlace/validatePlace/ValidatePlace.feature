@@ -1,5 +1,5 @@
 Feature: Validate Place API
-  @AddPlace @Regression
+   @Regression
 
   Scenario Outline: Verify if a customer can add a place using Add Place API
     Given add place payload with "<language>", "<address>", "<name>", and "<phoneNumber>"
@@ -10,10 +10,10 @@ Feature: Validate Place API
     And verify place_Id created maps to "<name>" using "/maps/api/place/get/json"
 
     Examples:
-      | language | address          | name          | phoneNumber        | method |
-      | sad      | 22 smart village | ahmed zakaria | (+91) 983 893 3937 | POST   |
-  #  | English-EN | 23 smart village | ahmed saad    | (+91) 983 893 3937 | POST    |
-  @DeletePlace @Regression
+      | language   | address          | name          | phoneNumber        | method |
+      | sad        | 22 smart village | ahmed zakaria | (+91) 983 893 3937 | POST   |
+      | English-EN | 23 smart village | ahmed saad    | (+91) 983 893 3937 | POST   |
+   @Regression
 
   Scenario Outline: verify if delete place function si working
   Given Delete place load
