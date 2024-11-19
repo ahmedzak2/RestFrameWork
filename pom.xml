@@ -82,7 +82,7 @@
                         <configuration>
                             <projectName>RestAssuredFrameWork</projectName>
                             <skip>false</skip>
-                            <outputDirectory>${project.build.directory}/cucumber-html-reports</outputDirectory>
+                            <outputDirectory>D:\testingAutomate\RestAssuredFrameWork\src\resources</outputDirectory>
                             <inputDirectory>${project.build.directory}/jsonReports</inputDirectory>
                             <jsonFiles>
                                 <param>**/*.json</param>
